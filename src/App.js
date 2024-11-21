@@ -22,7 +22,6 @@ function App() {
         </a>
       </header>
       <PrintContentsOfPDF />
-      <OpenAi />
       <Webhook />
     </div>
   );
