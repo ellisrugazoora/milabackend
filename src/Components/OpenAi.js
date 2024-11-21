@@ -13,7 +13,7 @@ function OpenAi(){
     }
     const openai = new OpenAI({
         apiKey: theKey,
-        dangerouslyAllowBrowser: true
+        dangerouslyAllowBrowser: false
     });
     const submitQuery = async () => {
         setLoading(true);
